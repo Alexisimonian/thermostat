@@ -27,7 +27,7 @@ describe('Thermostat', function() {
   })
 
   it ('has a maximum temperature of 25 when powersaving is on', function() {
-    thermostat.powerSavingMode('on')
+    thermostat.powerSavingModeOn();
     for(i=0; i<5; i++) {
       thermostat.up()
     }
@@ -35,7 +35,7 @@ describe('Thermostat', function() {
   })
 
   it ('has not a maximum temperature of 25 when the powersaving mode is off', function() {
-    thermostat.powerSavingMode('off');
+    thermostat.powerSavingModeOff();
     for(i=0; i<6; i++) {
       thermostat.up();
     }
@@ -43,7 +43,7 @@ describe('Thermostat', function() {
   })
 
   it ('has a maximum temperature of 32 when powersaving is off', function() {
-    thermostat.powerSavingMode('off');
+    thermostat.powerSavingModeOff();
     for(i=0; i<12; i++) {
       thermostat.up();
     }
@@ -51,7 +51,7 @@ describe('Thermostat', function() {
   })
 
   it ('resets the temperature when asked for', function() {
-    thermostat.powerSavingMode('off');
+    thermostat.powerSavingModeOff();
     for(i=0; i<11; i++) {
       thermostat.up();
     }
@@ -61,7 +61,7 @@ describe('Thermostat', function() {
   })
 
   it ('mesures the energy usage', function() {
-    thermostat.powerSavingMode('off');
+    thermostat.powerSavingModeOff();
     for(i=0; i<3; i++) {
       thermostat.down()
     }

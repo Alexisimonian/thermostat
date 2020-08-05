@@ -19,12 +19,12 @@ class Thermostat {
     this.temp -= 1;
   }
 
-  powerSavingMode(button) {
-    if (button === 'off') {
-      this.MAXIMUM_TEMP = 32;
-    } else if (button === 'on') {
-      this.MAXIMUM_TEMP = 25;
-    }
+  powerSavingModeOn() {
+    this.MAXIMUM_TEMP = 25;
+  }
+
+  powerSavingModeOff() {
+    this.MAXIMUM_TEMP = 32;
   }
 
   resetTemp() {
