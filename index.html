@@ -2,10 +2,16 @@
 <html>
   <head>
     <title>Thermostat</title>
+    <link rel="stylesheet" type="text/css" href="energy_usage.css">
   </head>
   <body>
     <section>
       <h1 id="temperature"></h1>
+      <h1> Current temperature: <span id="current-temperature">20</span></h1>
+      <form id="select-city">
+        <input id='current-city' type='text' placeholder="Enter your city here!"></select</input>
+        <input type='submit'></input>
+      </form>
       <p>
         <button id="temperature-up">+</button>
         <button id="temperature-down">-</button>
