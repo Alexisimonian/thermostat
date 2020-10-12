@@ -13,4 +13,4 @@ The thermostat supports features like a "Power-Saving Mode" which prevents it fr
 
 # Languages and libraries
 The app has been made with JS, JQuery and Jasmine. I chose JS so that users don't have to refresh the page to use the app features.
-To get information about current temperature of cities
+To get information about current temperature of worldwide cities, the app connects to OpenWeather's API.
