@@ -1,7 +1,7 @@
 ## Thermostat App
 
 # How it Works
-This thermostat-like software is a challenge from Makers Academy Bootcamp. With it, users can get the current temperature of any city and adjust a fake thermostat in consequence. <br><br>
+This thermostat-like software is a small challenge from Makers Academy Bootcamp. With it, users can get the current temperature of any city and adjust a fake thermostat in consequence. <br><br>
 The thermostat supports features like a "Power-Saving Mode" which prevents it from going over 25°C and color based warnings of current energy usage.
 
 # Languages and libraries
