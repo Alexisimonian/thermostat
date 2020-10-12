@@ -5,7 +5,6 @@ This thermostat-like software is a challenge from Makers Academy Bootcamp. With 
 The thermostat supports features like a "Power-Saving Mode" which prevents it from going over 25°C and color based warnings of current energy usage.
 
 # Screenshots of the app
-<br><br>
 <img src='./images/screenshot_app1.png' alt='demo thermapp'/>
 <br><br>
 <img src='./images/screenshot_app2.png' alt='demo thermapp'/>
