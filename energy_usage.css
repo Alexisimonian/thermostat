@@ -1,11 +1,56 @@
-.low-usage {
-  color: green;
+.split {
+  height: 100%;
+  width: 50%;
+  overflow-x: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
+  text-align: center;
 }
 
-.medium-usage {
-  color: orange;
+.right {
+  right: 0;
+  font-weight: bold;
 }
 
-.high-usage {
-  color: red;
+.left {
+  left: 0;
+  background-color: blanchedalmond;
+}
+
+.button {
+  position: absolute;
+  right: 39%;
+  top: 20%;
+}
+
+.PSM {
+  position: absolute;
+  right: 41%;
+  bottom: 20%;
+}
+
+.PSMStatus {
+  position: absolute;
+  right: 40%;
+  bottom: 30%;
+}
+
+#low-usage {
+  background-color: rgb(130, 182, 130);
+}
+
+#medium-usage {
+  background-color: rgb(233, 145, 64);
+}
+
+#high-usage {
+  background-color: rgb(252, 73, 73);
+}
+
+#select-city {
+  position: absolute;
+  top: 30%;
+  left: 33%;
 }

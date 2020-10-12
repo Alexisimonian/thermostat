@@ -27,7 +27,8 @@ $(document).ready(function() {
 
   function updateTemperature() {
   $('#temperature').text(thermostat.temp);
-  $('#temperature').attr('class', thermostat.energyUsage());
+  $('#power-saving-status').text(thermostat.powerSavingStatus)
+  $('.right').attr('id', thermostat.energyUsage());
   }
   
   $('#select-city').submit(function(event) {
