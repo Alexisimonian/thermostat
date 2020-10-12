@@ -6,9 +6,9 @@ The thermostat supports features like a "Power-Saving Mode" which prevents it fr
 
 # Screenshots of the app
 <img src='./images/screenshot_app1.png' alt='demo thermapp'/>
-<br><br>
+<br>
 <img src='./images/screenshot_app2.png' alt='demo thermapp'/>
-<br><br>
+<br>
 <img src='./images/screenshot_app3.png' alt='demo thermapp'/>
 
 # Languages and libraries
