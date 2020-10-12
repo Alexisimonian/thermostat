@@ -10,7 +10,6 @@ The thermostat supports features like a "Power-Saving Mode" which prevents it fr
 <img src='./images/screenshot_app2.png' alt='demo thermapp'/>
 <br><br>
 <img src='./images/screenshot_app3.png' alt='demo thermapp'/>
-<br><br>
 
 # Languages and libraries
 The app has been made with JS, JQuery and Jasmine. I chose JS so that users don't have to refresh the page to use the app features.
